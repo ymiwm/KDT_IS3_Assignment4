@@ -182,10 +182,10 @@ DB: MySQL
         - 비정상적인 값이 입력되었을 때 이를 모니터링하거나 허용되지 않은 동작으로 분리.
 
     6. Insufficient Authentificaiton
-        - 인증, 인가 절차 추가(세션 및 서버 사이드 스크립트 사용)
+        - 인증, 인가 절차 추가.(세션 및 서버 사이드 스크립트 사용.)
 
     7. Access in the same time
-        
+        - 로그인된 유저에 관한 상태를 만들어 처리.
 
 
 ---
@@ -194,12 +194,12 @@ DB: MySQL
 
 1. Server side script JSP(Java Server Page)의 원리 학습이 필요해 보임.
 
-2. SQL injection에 사용하기 좋은 query와 자주 접하기 힘든 문법을 학습할 수 있어 좋았다.
+2. SQL injection에 사용하기 좋은 query와 자주 접하기 힘든 문법을 학습할 수 있었다. 하지만 injection이 수행되는 입력부에서 앞의 query를 예측하는 방법에 대해 학습 필요.
 
 3. 아직 Insufficient Authentification vs Authorization과  
 XSS vs CSRF의 차이점을 명확히 하지 못했다. 추가 학습 필요.
 
-4. Feedback에 존재하는 comment라는 id를 가진 textarea가 comment.txt 파일로 저장되는 것을 확인. XSS를 시도하였으나 텍스트파일이라 그런지 별일이 안일어났음. 이에 관해 알아보기.
+4. Feedback에 존재하는 comment라는 id를 가진 textarea가 comment.txt 파일로 저장되는 것을 확인. XSS를 시도하였으나 텍스트파일이라 그런지 인코딩 후 단순 저장. 이에 관해 알아보기.
 
 **Suspicious**
 
