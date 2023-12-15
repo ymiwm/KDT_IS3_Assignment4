@@ -66,10 +66,9 @@ DB: MySQL
             - ***C***: Data를 intercept하여 기밀성 문제.
 
         3. XSS(Well-known)  
-        Search 부에 스크립트를 삽입하여 예외 동작 가능.
-            - ***C***: 
-            - ***I***: 
-            - ***A***: 
+        Search 부에 스크립트를 삽입하여 예외 동작 가능.  
+        (***C / I / A*** 중 C는 해당되지 않고, ***I***와 ***A***는 상황에 따라 변할 것으로 예상됨.)  
+        -> 추가 작업 필요
 
         4. Modifying request(MITM)  
         *Burp Suite*을 사용해 Transfer Fund의 *request*값을 변경하여 자금 전달과 관련한 중대한 취약점.
