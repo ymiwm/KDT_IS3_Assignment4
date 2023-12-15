@@ -138,7 +138,7 @@ DB: MySQL
     5. Out of range
     ![Invalid Data 0](/img/Out%20Of%20Range/Invalid%20Data%200.png)
 
-    6. Insufficient Authentificaiton & Insufficient Authorization
+    6. Insufficient Authentificaiton & Insufficient Authorization  
     Access to user data without any authentification and authorization
     ![Edit User 0](/img/Insufficient%20Authentification%20and%20Authorization/Edit%20User%200.png)
     ![Edit User 1](/img/Insufficient%20Authentification%20and%20Authorization/Edit%20User%201.png)
